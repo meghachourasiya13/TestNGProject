@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" thread-count="5" name="/Users/megha.chourasiya/Applications/Projects/TestNGProject">
+        <classes>
+            <class name="testCases.LoginTest">
+                <methods>
+                    <include name="LoginFailiureTest"/>
+                    <include name="LoginSuccessTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
